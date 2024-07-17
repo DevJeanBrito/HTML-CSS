@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias Dinamicas</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1080px)" srcset="imagens/foto-media-.png" type="image/png">
+        <img src="imagens/foto-.grande-.png" alt="FotoFlexivel">
+    </picture>
+    <h2>Audio</h2>
+    <p>Agora podemos adicionar Audio ao nosso site! Relaxe e escute uma musica.</p>
+    <audio preload="metadata" loop controls autoplay>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+    </audio>
+    <p>Escute tambem o Podcast do Guanabara.</p>
+    <audio preload="metadata" loop controls autoplay>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+
+    
+</body>
+</html>
